@@ -19,7 +19,7 @@ File = Plik
 New = Nowy
 Project... = Projekt...
 Schematic = Schemat
-Schematic-Simulation =
+Schematic-Simulation = Schemat-Symulacja
 Spice Symbol = Symbol Spice
 Spice Subckt = Spice
 spicePre =
@@ -52,7 +52,7 @@ Move = Przenieś
 Drag = Przeciągnij
 Bring to Front = Przesuń na wierzch
 Send to Back = Przesuń na spód
-Align = Wyrównywanie
+Align = Wyrównanie
 Align Left = Wyrównaj do lewej
 Align Right = Wyrównaj do prawej
 Align Top = Wyrównaj do góry
@@ -76,10 +76,10 @@ Group/Ungroup Symbol... = Grupuj/Rozgrupuj symbol...
 View = Zobacz
 [/menu_project]
 Find = Znajdź
-Zoom In = Powieksz
+Zoom In = Powiększ
 Zoom Out = Pomniejsz
 Fit in Window = Dopasuj do okna
-Refresh = Odświerz
+Refresh = Odśwież
 Snap = Przyciągaj
 Cross Cursor =
 Toolbars = Paski narzędzi
@@ -90,15 +90,15 @@ PCB Tools = Narzędzia PCB
 Footprint Tools = Narzędzia footprintów
 Layers Tool = Narzędzia warstw
 Layer Manager = Menedżer warstw
-Enable and Show All Layers =
+Enable and Show All Layers = Włącz i pokaż wszystkie warstwy
 Net Visible = Widzialność sieci
 Auto = Automatycznie
 Digital Objects = Obiekty Cyfrowe
 Tools = Narzędzia
 Arc Center = Łuk z środkiem
 Arc Type = Typ łuku
-Center Point Arc =
-Two-point Arc =
+Center Point Arc = Łuk środkowopunktowy
+Two-point Arc = Łuk dwupunktowy
 
 Place = Umieść
 Drawing Tools = Narzędzia rysowania
@@ -111,7 +111,7 @@ Line = Linia
 Polyline = Linia łamana
 Rectangle = Prostokąt
 Rectangular = Prostokątny
-The rectangle does not support non-90 degree rotation. Please use Solid Region instead. =
+The rectangle does not support non-90 degree rotation. Please use Solid Region instead. = Kwadrat nie wspiera obrotu pod kątem innym niż prosty. Zamiast tego, użyj obszaru wypełnionego.
 
 Rect = Prostokąt
 Round Rectangle = Zaokrąglony prostokąt
@@ -144,18 +144,18 @@ Footprint... = Footprint...
 This component is deleted! = Ten komponent jest usunięty!
 Convert = Konwersja
 Convert Schematic to PCB = Konwertuj schemat do PCB
-The component ID will be reset according to the component prefix, this operation will clear Undo histories. Please notice: =
-Please make sure the component prefixes of the schematic and PCB are corresponding =
-Please reset the component ID of corresponding schematic or corresponding PCB too =
+The component ID will be reset according to the component prefix, this operation will clear Undo histories. Please notice: = ID komponentu zostanie zresetowany według prefiksu komponentu, ta operacja wyczyści historię cofnięć. Proszę zauważyć:
+Please make sure the component prefixes of the schematic and PCB are corresponding = Proszę się upewnić, że prefiksy schematu oraz PCB się zgadzają
+Please reset the component ID of corresponding schematic or corresponding PCB too = Proszę zresetować ID odpowiedniego schematu lub PCB
 Do you want to continue? = Czy na pewno chcesz kontynuować?
 Reset Component ID = Zresetuj ID komponentu
 Component ID reset successfully! = Reset ID komponentu udany!
 Convert to PCB = Konwertuj do PCB
 Update PCB = Aktualizuj PCB
 Shortcut Keys Setting = Ustawienia skrótów klawiszowych
-Edit Symbol... = Edycja sumbolu...
-Highlight Net... = Podźwietlenie Sieci...
-Simulate = Symulacja
+Edit Symbol... = Edycja symbolu...
+Highlight Net... = Podświetlenie Sieci...
+Simulate = Symuluj
 Simulation = Symulacja
 Standard Mode = Tryb standardowy
 Simulation Mode = Tryb symulacji
@@ -241,7 +241,7 @@ Tutorials = Tutoriale
 Basic Tutorials = Podstawowe Tutoriale
 Video Tutorials = Video Tutoriale
 Essential Check = Niezbędne zgody
-Simulation Tutorials = Tutoriale Symulacji
+Simulation Tutorials = Tutoriale dotyczące symulacji
 Updated Instructions = Zaktualizowane instrukcje
 Open File Format = Format Otwieranych plików
 About Upgrade = O Aktualizacjach
@@ -283,31 +283,31 @@ Support = Wsparcie
 Historical Records... = Zapisy Historii...
 Extensions = Rozszerzenia
 Order PCB... = Zamów PCB...
-Import Changes = Import zmian
+Import Changes = Importuj zmiany
 Press {0}F11{1} to switch to full screen. = Naciśnij F11, aby przełączyć do pełnego ekranu.
 Delete Selected = Usuń Wybrane
-Simulate... = Symulacja...
+Simulate... = Symuluj...
 Config = Konfiguracja
 Terms of Service & Privacy Policy = Zasady Serwisu i Polityka Prywatności
 Help Topics = Tematy Pomocy
-3D Model(obj) = Model 3D(obiekt)
-3D Model(step) = Model 3D(krok)
+3D Model(obj) = Model 3D(obj)
+3D Model(step) = Model 3D(step)
 SVG Source... = Źródło SVG...
 File Source = Źródło pliku
 Group These Items as a Symbol = Zgrupuj Te Rzeczy jako Symbol
 Group These Items as a Footprint = Zgrupuj Te Rzeczy jako Footprint
-Set Canvas Origin = Ustaw Środek Kanwy
+Set Canvas Origin = Ustaw Środek Płótna
 Document Setting = Ustawienia dokumentu
 Sheet Properties = Atrybuty arkusza
-Set Board Outline = Ustaw obrys płyty
+Set Board Outline = Ustaw obrys płytki
 Teardrop... =
 Panelize... =
 Check Dimension = Sprawdź wymiar
 Smart Dimension = Inteligentny wymiar
-Footprint Wizard =
-Footprint Wizard... =
+Footprint Wizard = Kreator footprintów
+Footprint Wizard... = Kreator footprintów...
 Select package type = Ustaw typ paczki
-Smart Dimension Properties =
+Smart Dimension Properties = Preferencje inteligentnego wymiarowania
 Global Delete = Usuwanie Globalne
 Cross Probe =
 Cross Probe and Place =
@@ -315,11 +315,11 @@ Paper Size = Rozmiar Papieru
 Register = Rejestracja
 User Center = Centrum użytkownika
 
-By Mouse Location =
-Set Coordinate = Ustaw Kordynat
-By Coordinates... =
-By Center of Pads =
-By Center Grid of Symbols =
+By Mouse Location = Według położenia myszki
+Set Coordinate = Ustaw Koordynat
+By Coordinates... = Według koordynatów
+By Center of Pads = Według środka padów
+By Center Grid of Symbols = 
 
 #Schematic Canvas Properties
 Properties = Właściwości
@@ -358,7 +358,7 @@ Color = Kolor
 Font Family = Rodzina czcionki
 Font Size = Rozmiar czcionki
 Font Weight = Grubość czcionki
-Font Style = Stylk czcionki
+Font Style = Styl czcionki
 Text Type = Typ tekstu
 Text Anchor = Kotwica tekstu
 Baseline = Linia bazowa
@@ -372,14 +372,14 @@ comment = komentarz
 spice = spice
 normal = normalny
 italic = kursywa
-Default = domyślny
+Default = Domyślny
 Add = Dodaj
 bold = pogrubiony
 bolder = grubszy
 lighter = lżejszy
-Failed to parse the font file: {name} = Błąt przetwarzania pliku czcionki: {name}
-Please select a font file of ttf or woff format. = Proszę wybrać plik czcionki ttf lub woff.
-Add font success: {name} = Dodano plik czcionki: {name}
+Failed to parse the font file: {name} = Błąd przetwarzania pliku czcionki: {name}
+Please select a font file of ttf or woff format. = Proszę wybrać plik czcionki w formacie ttf lub woff.
+Add font success: {name} = Pomyślnie dodano plik czcionki: {name}
 Failed to add font: {name} = Błąd dodania pliku czcionki: {name}
 Add Font = Dodaj Czcionkę
 Failed to parse cached font: {name} = Błąd przetwarzania czcionki w buforze: {name}
@@ -390,28 +390,28 @@ Stroke Color = Kolor krawędzi
 Stroke Width = Szerokość krawędzi
 Stroke Style = Styl krawędzi
 Fill Color = Kolor wypełnienia
-X Radius =
-Y Radius =
+X Radius = Promień X
+Y Radius = Promień Y
 
 #spice
 Switch mode = Przełącz tryb
-The current documents will be closed, and reopen after switching mode, do you want to continue? =
-PCB related documents are not allowed in emulation mode =
-Please change the editor to "Simulation" mode first at the top left corner. =
-Please change the editor to "Standard" mode first at the top left corner. =
-Common =
+The current documents will be closed, and reopen after switching mode, do you want to continue? = Obecnie otwarte dokumenty zostaną zamknięte, otworzą się po zmianie trybu. Czy chcesz kontynuować?
+PCB related documents are not allowed in emulation mode = Dokumenty związane z PCB nie są dozwolone w trybie emulacji
+Please change the editor to "Simulation" mode first at the top left corner. = Proszę najpierw ustawić edytor w tryb symulacji (w lewym górnym rogu).
+Please change the editor to "Standard" mode first at the top left corner. = Proszę najpierw ustawić edytor w tryb standardowy (w lewym górnym rogu).
+Common = Wspólny
 spice.open = spice.otwórz
 spice.close = spice.zamknij
 Sources = Źródła
-Instruments/Meters = Urządzenia/Pomiary
+Instruments/Meters = Urządzenia/Narzędzia pomiarowe
 Transistors = Tranzystory
 Digital Circuits = Cyfrowe Obwody
-Operational Amplifier = Operowalny Wzmacniacz
+Operational Amplifier = Wzmacniacz operacyjny
 multimeter = multimetr
 multimeter Settings = Ustawienia multimetru
-FunctionGenerator Settings = Ustawienia GeneratoraFunkcji
+FunctionGenerator Settings = Ustawienia Generatora Funkcji
 Voltage Source Settings = Ustawienia Źródła Napięcia
-Current Source Settings = Ustawienia Źródła Natężenia
+Current Source Settings = Ustawienia Źródła Prądu
 Powersw Settings = Ustawienia Przełącznika prądu
 Resistor Settings = Ustawienia Rezystora
 Capacitor Settings = Ustawienia Kondensatora
@@ -434,7 +434,7 @@ Potentiometer Settings = Ustawienia Potencjometru
 MUTUAL_INDUCTORS Settings = Ustawienia WSPÓLNYCH_CEWEK
 NE555 Settings = Ustawienia NE555
 THREE_PHASE Settings = Ustawienia TRZECH_FAZ
-Logic_Probe Settings = Ustawienia Logicznej_Próbki
+Logic_Probe Settings = Ustawienia Logicznej_Sondy
 78XX Settings = Ustawienia 78XX
 79XX Settings = Ustawienia 79XX
 OPAMP5PEE Settings = Ustawienia OPAMP5PEE
@@ -442,7 +442,7 @@ OPAMP5PEECN Settings = Ustawienia OPAMP5PEECN
 OPAMP3PEE Settings = Ustawienia OPAMP3PEE
 OPAMP3PEECN Settings = Ustawienia OPAMP3PEECN
 DELAY_FUSE Settings = Ustawienia OPÓŹNIENIOWEGO_BEZPIECZNIKA
-Ratio =
+Ratio = Proporcje
 K[%]
 Model = Model
 States = Stany
@@ -452,14 +452,14 @@ Current gain[A/A]
 Transconductance[Mho]
 Transresistance[Ω]
 Voltage Source Type = Typ Źródła Napięcia
-Current Source Type = Typ Źródła Natężenia
+Current Source Type = Typ Źródła Prądu
 multimeter type = typ mulimetru
 power type = typ mocy
 Voltmeter Resistance(R)(Ω) = Rezystancja Voltmetru(R)(Ω)
 Amperometer Resistance(R)(Ω) = Rezystancja Amperometru(R)(Ω)
 mu.V =
 mu.A =
-Sine Wave = Fala Sinusoidy
+Sine Wave = Fala Sinusoidalna
 Triangular Wave = Fala Trójkątna
 Rectangular Wave = Fala Kwadratowa
 AC = AC
@@ -469,7 +469,7 @@ PULSE = PULS
 EXP = EXP
 SFFM = SFFM
 PWL = PWL
-B.spice = b.spice
+B.spice = B.spice
 DC Value[V]
 DC Value[A]
 DC offset[V]
@@ -500,7 +500,7 @@ Signal Freq[Hz]
 Time[s]
 Value[V]
 Value[A]
-Waveforms =
+Waveforms = Kształty przebiegów
 Duty cycle[%]
 Amplitude[Vp]
 Offset[V]
@@ -534,13 +534,13 @@ Channel B = Kanał B
 Time = Czas
 Reverse = Odwróć
 Simulation file exceed =
-The simulation file is too large and has been stopped for performance reasons. =
-Timebase = Baza czasu
+The simulation file is too large and has been stopped for performance reasons. = Plik symulacji jest zbyt duży. Zatrzymano ze względów wydajnościowych.
+Timebase = Podstawa czasu
 Scale: = Skala:
 X pos.(Div): =
 Y pos.(Div): =
 View meter... =
-The circuit has components without simulation model: =
+The circuit has components without simulation model: = Obwód ma elementy bez modelu symulacyjnego:
 Your simulation interval is too short to simulate, please wait 5 seconds later and try again; if still show this message, may be you simulated over 500 times the maximum simulation times per day. =
 Resistor1_US =
 Resistor1_EU/IEC =
@@ -676,21 +676,21 @@ Power[W]
 Dropout Voltage[V]
 Current[A]
 Threshold[V]
-Clock Rate =
+Clock Rate = Częstotliwość zegara
 TrafficLight Settings =
 BCDSegment Settings =
 SevenSegment Settings =
 SPDT Settings =
 SPST Settings =
 LogicAnalyzer Settings =
-Fuse Settings =
-Wattmeter Settings =
-open =
-close =
-Common Anode =
-Common Cathode =
-AC Amplitude =
-AC Phase =
+Fuse Settings = Ustawienia Bezpiecznika
+Wattmeter Settings = Ustawienia Watomierza
+open = otwórz
+close = zamknij
+Common Anode = wspólna anoda
+Common Cathode = wspólna katoda
+AC Amplitude = Amplituda AC
+AC Phase = Faza AC
 There are some parts haven't spice model, please use "EElib" and "Spice Symbol" at "Libraries" of "Simulation" mode, or you can assign the spice model for them: =
 
 #Pin
@@ -803,7 +803,7 @@ Hole Shape = Kształt Otworu
 Slot = Slot
 Hole(Length) = Otwór (długość)
 Plated = Powlekany
-None = Nie
+None = Żaden
 Paste Mask Expansion = Wklej Ekspansję Maski
 Solder Mask Expansion = Ekspancja Maski Lutowniczej
 
@@ -820,7 +820,7 @@ Hole Properties = Właściwości otworu
 Text Properties = Właściwości tekstu
 Line Width = Szerokość linii
 Rotation = Obrót
-Fonts Management = 
+Fonts Management = Zarządzanie czcionkami
 
 #Dimension Properties
 Dimension Properties = Właściwości wymarów
@@ -865,7 +865,7 @@ Edit Points = Edycja punktów
 Direct = Bezpośrednio
 Spoke = Obramowanie
 No Solid = Nie Stały
-Board Cutout =
+Board Cutout = Wycięcie płytki
 Solid = Stałe
 [copperArea]
 None = Nie
@@ -891,11 +891,11 @@ Username = Nazwa użytkownika
 Password = Hasło
 Confirm Password = Potwierdź Hasło
 Email =
-Please read this before you register = Proszę przeczytać to, zanim się zarejejstrujesz
+Please read this before you register = Proszę przeczytać to, zanim się zarejestrujesz
 Hi {username} = Witaj {username}
 
 #Dialog lostPassword
-Lost Password... = Zapomniałem hasło...
+Lost Password... = Nie pamiętam hasła...
 Find the password using your email = Odnajdź swoje hasło za pomocą emaila
 
 
@@ -910,7 +910,7 @@ Your login information seems expired, please login again. Don't need to close th
 
 #Dialog Reset Password
 Reset a password using your email = Zresetuj hasło za pomocą emaila
-Your registered email = Twój mail rejestracyjny
+Your registered email = Twój mail użyty do rejestracji
 
 #Dialog Reaction
 Re-send an activation code to your email = Wyślij ponownie kod aktywacyjny na Twój email
@@ -997,29 +997,29 @@ Nets = Sieci
 DRC Errors = Błędy DRC
 Are you sure you want to unroute this net? =
 Unroute = Odroutuj
-Track Length =
-Via/Hole Outer Size =
-Filter nets =
+Track Length = Długość ścieżki
+Via/Hole Outer Size = Zewnętrzna wielkość przelotek/otworów
+Filter nets = Filtruj sieci
 Design Rule Checking =
-Board Outline =
+Board Outline = Kontur płytki
 Plane Zone =
 [drcRule]
 Width = Szerokość
-DRC Width =
+DRC Width = Szerokość DRC
 Length = Długość
-DRC Length =
+DRC Length = Długość DRC
 Drill Diameter =
 DRC Drill Diameter =
 Diameter = Średnica
-DRC Diameter =
-Object =
-DRC Clearance =
+DRC Diameter = Średnica DRC
+Object = Obiekt
+DRC Clearance = Luz DRC
 [/drcRule]
 #It will take a while to unroute this net, do you want to continue?
 More than one netlabel is found in wire, please checked whether this is correct, if you design it on purpose, please ignore this warning. =
 Incomplete net, a complete net should contain two or more pins, if you design it on purpose, please ignore this warning. =
 This netlabel is not connected with any pin. =
-Incomplete connection, please check. =
+Incomplete connection, please check. = Niedokończone połączenie, proszę sprawdzić.
 The clearance between two objects is less than the Design Rule Checking (DRC) clearance which has different nets. =
 The diameter is less than Design Rule Checking (DRC) diameter =
 The drill diameter is less than Design Rule Checking (DRC) drill diameter =
@@ -1035,26 +1035,26 @@ Components = Komponenty
 #Dialog Import
 Import file from your computer = Importuj plik z komputera
 Maximum file size: 30 MB = Maksymalny rozmiar pliku: 30MB
-Maximum file size: 100 MB =
+Maximum file size: 100 MB = Maksymalny rozmiar pliku: 100MB
 Chose file = Wybierz plik
 File Operation = Opreracje na pliku
 Import File = Importuj plik
-Extract Libs = Wyciągnij biblioteki
-Import File and Extract Libs =
+Extract Libs = Wypakuj biblioteki
+Import File and Extract Libs = Importuj plik i wypakuj biblioteki
 File type = Typ pliku
 The file size is too large. = Plik jest za duży
 Please selected the file type. = Proszę wybrać typ pliku
 No component was found! = Nie znaleziono komponentu!
-Import successfully = Zaimportowano
-Import failed = Błąd importu
-Click OK to continue with the import =
+Import successfully = Pomyślnie zaimportowano
+Import failed = Błąd importowania
+Click OK to continue with the import = Kliknij OK, aby kontynuować importowanie
 Select None = Nic nie zaznaczono
 
 #Dialog Modify Symbol Information
 Modify symbol information = Modyfikacja informacji o symbolu
 Spice Prefix = Prefix Spice
-Hide Pin =
-Pin Manager =
+Hide Pin = Ukryj pin
+Pin Manager = Manager pinów
 When a power pin is hidden, it will be marked as netlabel, you don't need to wire it. If you use it as simulation, please show it or create a GND/VCC Net for it. =
 Assign = Przydział
 Supplier.bom = Dostawca
